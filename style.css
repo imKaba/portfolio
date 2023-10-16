@@ -308,8 +308,8 @@ p {
 
 #services > div > div.service-top > p.section-text {
 	width: 100%;
-	font-size: 3rem;
-	text-align: justify;
+	font-size: 1.8rem;
+	text-align: center;
 }
 
 #services .service-bottom {
