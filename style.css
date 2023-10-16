@@ -591,6 +591,11 @@ p {
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
+#footer h1 a {
+	color: white;
+
+}
+
 #footer h2 {
 	color: white;
 	font-weight: 500;
