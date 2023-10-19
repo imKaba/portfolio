@@ -162,10 +162,10 @@ p {
 
 /* Style for the active link */
 #header .header .nav-bar .nav-list ul li a.active {
-	color: #ff0000; /* Change the color as desired */
-	font-weight: bold; /* Add other styles as needed */
-	position: relative;
-	text-decoration: none;
+	/* color: white; Change the color as desired */
+	/* font-weight: bold; Add other styles as needed */
+	/* position: relative; */
+	/* text-decoration: none; */
   }
   
   /* Style for the underlining effect */

@@ -25,34 +25,34 @@ menu_item.forEach((item) => {
 });
 
 
-document.addEventListener("scroll", function() {
-	var currentScroll = window.scrollY;
+// document.addEventListener("scroll", function() {
+// 	var currentScroll = window.scrollY;
   
-	var sections = document.querySelectorAll("section");
+// 	var sections = document.querySelectorAll("section");
   
-	sections.forEach(function(section) {
-	  var sectionTop = section.offsetTop;
-	  var sectionBottom = sectionTop + section.clientHeight;
+// 	sections.forEach(function(section) {
+// 	  var sectionTop = section.offsetTop;
+// 	  var sectionBottom = sectionTop + section.clientHeight;
   
-	  if (currentScroll >= sectionTop && currentScroll < sectionBottom) {
-		// Add the "active" class to the corresponding link
-		var link = document.querySelector('a[href="#' + section.id + '"]');
-		if (link) {
-		  link.classList.add("active");
-		  link.style.transition = "0.5s"; // Adjust the transition duration
-		  link.style.transform = "scaleX(1)"; // Animate the underline to fully visible
-		}
-	  } else {
-		// Remove the "active" class from other links
-		var link = document.querySelector('a[href="#' + section.id + '"]');
-		if (link) {
-		  link.classList.remove("active");
-		  link.style.transition = "0.3s"; // Adjust the transition duration
-		  link.style.transform = "scaleX(0)"; // Animate the underline to hide
-		}
-	  }
-	});
-  });
+// 	  if (currentScroll >= sectionTop && currentScroll < sectionBottom) {
+// 		// Add the "active" class to the corresponding link
+// 		var link = document.querySelector('a[href="#' + section.id + '"]');
+// 		if (link) {
+// 		  link.classList.add("active");
+// 		  link.style.transition = "0.5s"; // Adjust the transition duration
+// 		  link.style.transform = "scaleX(1)"; // Animate the underline to fully visible
+// 		}
+// 	  } else {
+// 		// Remove the "active" class from other links
+// 		var link = document.querySelector('a[href="#' + section.id + '"]');
+// 		if (link) {
+// 		  link.classList.remove("active");
+// 		  link.style.transition = "0.3s"; // Adjust the transition duration
+// 		  link.style.transform = "scaleX(0)"; // Animate the underline to hide
+// 		}
+// 	  }
+// 	});
+//   });
 
   
   window.addEventListener("scroll", function() {
